@@ -2,8 +2,8 @@ import Head from 'next/head'
 
 import { Inter } from '@next/font/google'
 import Navbar from "./comp/nav";
-
-
+import Header from "./comp/Header"
+import Subscript from "./comp/subscript"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,6 +17,9 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
         <Navbar />
+        <Header />
+        <Subscript />
+
       
 
     </>
