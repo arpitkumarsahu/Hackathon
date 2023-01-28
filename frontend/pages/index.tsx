@@ -1,10 +1,13 @@
 import Head from 'next/head'
 
 import { Inter } from '@next/font/google'
-import Navbar from "./comp/nav";
-import Header from "./comp/Header"
-import Subscript from "./comp/subscript"
-import Footer from "./comp/footer"
+// import Navbar from "./comp/nav";
+// import Header from "./comp/Header"
+// import Subscript from "./comp/subscript"
+// import Footer from "./comp/footer"
+import Login from "./comp/login"
+
+import Signup from "./comp/signup"
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,10 +20,12 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
-        <Navbar />
+        {/* <Navbar />
         <Header />
         <Subscript />
-        <Footer />
+        <Footer /> */}
+        <Signup/>
+        {/* <Login/> */}
 
       
 
