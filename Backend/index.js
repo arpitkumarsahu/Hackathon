@@ -22,7 +22,7 @@ app.listen(8080, async () => {
   console.log(`Port is Running at 8080`);
 });
 
-// "first_name":"Arpit",
+//   "first_name":"Arpit",
 // "last_name":"Sahu",
 // "age":25,
 // "email":"arpit@gmail.com",
